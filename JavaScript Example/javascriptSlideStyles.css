@@ -57,8 +57,9 @@
     color: white;
 }
 
-h2 {
+h3 {
     font-style: italic;
+    color: grey;
 }
 
 header {

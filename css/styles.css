@@ -217,6 +217,9 @@ Hero
 
 }
 
+
+
+
 /* * * * * * * * * * * * * * * * * * * * *
 Main
 * * * * * * * * * * * * * * * * * * * * */
@@ -248,10 +251,6 @@ Main
     background-position: center;
 }
 
-.box1:hover {
-    opacity: 0.8;
-
-}
 
 .box2 {
     background-image: linear-gradient(
@@ -263,10 +262,7 @@ Main
     background-position: center;
 }
 
-.box2:hover {
-    opacity: 0.8;
 
-}
 
 .box3 {
     background-image: linear-gradient(
@@ -279,10 +275,6 @@ Main
     margin-right: 0;
 }
 
-.box3:hover {
-    opacity: 0.8;
-
-}
 
 .paragraph {
     padding: 20px 20px 80px 20px;
@@ -299,6 +291,24 @@ main h1 {
     font-family: 'Tangerine', cursive;
     font-size: 4em;
     font-weight: 700;
+}
+
+
+.portfolio-link a{
+    text-emphasis: none;
+    background-color:peru;
+    padding: 10px;
+    color: black;
+}
+
+.portfolio-link a:hover {
+    background-color: orange;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.portfolio-link {
+    margin-top: 50px;
 }
 
 
