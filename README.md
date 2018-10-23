@@ -14,4 +14,13 @@ site!</p>
   <li>JQuery</li>
 </ul>
 
+<h2>😜 Other Self-taught Languages: </h2>
+<ul>
+  <li> C++ </li>
+  <li> Python</li>
+  <li> Ruby</li>
+  <li> C#</li>
+</ul>
+
+
 
