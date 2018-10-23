@@ -6,7 +6,7 @@
 <p>I love to continuously learn and collaborate with other web devs so any feedback is always welcomed! I hope you enjoy my
 site!</p>
 
-<h2> Languages used: </h2>
+<h2> 😻Languages used: </h2>
 <ul>
   <li> JavaScript </li>
   <li> HTML 5 </li>
