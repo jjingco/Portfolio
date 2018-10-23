@@ -7,7 +7,7 @@
 site!</p>
 
 <h2> Languages used: </h2>
-<ul background-color='#d0ffc6'>
+<ul>
   <li> JavaScript </li>
   <li> HTML 5 </li>
   <li> CSS </li>
