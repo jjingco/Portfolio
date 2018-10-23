@@ -7,15 +7,11 @@
 site!</p>
 
 <h2> Languages used: </h2>
-<ul class='languages-li'>
+<ul>
   <li> JavaScript </li>
   <li> HTML 5 </li>
   <li> CSS </li>
+  <li>JQuery</li>
 </ul>
 
 
-<style>
-  .languages-li {
-    background-color:red;
-  }
-</style>
