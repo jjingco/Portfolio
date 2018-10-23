@@ -21,7 +21,7 @@ site!</p>
   project it through a CSS animation example. The animation can be anything you like as long as it is centered around
   content.</p>
   <p> Though I used HTML to set the base structure for this webpage, I used CSS to animate the floating boxes. 
-    By using a Z-index, it made it easier to put a '<div>' on top of the content and have that '<div> slide from 
+    By using a Z-index, it made it easier to put a div tag on top of the content and have that div tag slide from 
     one corner to the next </p>
   
 <h3>💾 JavaScript Animation Sample</h3>
