@@ -16,7 +16,7 @@ site!</p>
 
 <h2> Breakdown for Each Sample: </h2>
 <div>
-  <h3>💾 CSS Animation Sample</h3>
+  <h3>CSS Animation Sample</h3>
   <p> The objective of this in-class assignment was to take a week's worth of teaching in design principles and
   project it through a CSS animation example. The animation can be anything you like as long as it is centered around
   content.</p>
@@ -24,7 +24,7 @@ site!</p>
     By using a Z-index, it made it easier to put a div tag on top of the content and have that div tag slide from 
     one corner to the next </p>
   
-<h3>💾 JavaScript Animation Sample</h3>
+<h3>JavaScript Animation Sample</h3>
 
 <h2>😜 Other Self-taught Languages: </h2>
 <ul>
