@@ -1,5 +1,5 @@
 # PORTFOLIO INTRODUCTION
-<h1 style='color:#EC4A94'> Welcome to my Portfolio 💖 </h1>
+<h1>💖 Welcome to my Portfolio 💖 </h1>
 <p> Most of my samples came from in-class projects through the 15 week Web Development program at the South
   Alberta Institute of Technology (SAIT). However, outside of the program I have also dabbled in Python,
   C++ and C#.</p>
