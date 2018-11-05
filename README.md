@@ -1,5 +1,3 @@
-#Portfolio
-
 <h1>💖 💖 Welcome to my portfolio site 💖 💖</h1>
 <p> This site was developed as a part of my final project for the South Alberta Institue of Technology (SAIT) in Calgary.
     Though some of the examples on my portfolio site is driven from in-class assignments, the rest of the examples
