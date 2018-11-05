@@ -1,4 +1,4 @@
-$( ".example1" ).hover(function() {
+$( ".example1" ).mouseenter(function() {
     var pinkBlocks = $(".pink");
     var yellowBlocks = $(".yellow");
     var blueBlocks = $(".blue");
