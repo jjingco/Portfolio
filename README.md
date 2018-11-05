@@ -14,9 +14,11 @@
   <li> HTML 5 </li>
   <li> CSS & Sass used with Node.js</li>
   <li> Php used with Laravel</li>
+</ul>
+
 <h2>😜 Self-taught languages:</h2>
 <ul>
   <li> Python </li>
   <li> JQuery </li>
   <li> React Native </li>
-  
+</ul>
