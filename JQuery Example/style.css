@@ -52,10 +52,11 @@ h1 {
 }
 
 .sampleBtn a {
-    background-color: white;
+    background-color: none;
     padding: 10px;
-    color: black;
+    color: peru;
     text-decoration: none;
+    font-weight:bold;
     margin-top:300px;
 }
 
