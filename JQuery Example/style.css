@@ -50,3 +50,14 @@ h1 {
     margin-top: -120px;
     color: white;
 }
+
+.sampleBtn a {
+    background-color: white;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.sampleBtn a:hover {
+    background-color: aqua;
+}
