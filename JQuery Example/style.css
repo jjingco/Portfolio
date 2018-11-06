@@ -52,14 +52,15 @@ h1 {
 }
 
 .sampleBtn a {
-    background-color: none;
-    padding: 10px;
     color: peru;
     text-decoration: none;
     font-weight:bold;
+}
+.sampleBtn {
+    background-color: none;
+    padding: 10px;
     margin-top:300px;
 }
-
 .sampleBtn a:hover {
     background-color: aqua;
 }
