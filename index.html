@@ -9,46 +9,45 @@
         <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">        
         <link href="https://fonts.googleapis.com/css?family=Tangerine:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./CSS_homepage/styles.css">
         <title>Home</title>
     </head>
     <body>
-        <header>
-            <div class="container d-flex align-items-stretch h-100">
-                <div class="logo d-flex align-items-center">
-                    <i class="fas fa-globe-americas"></i>
-                    <span>Backpacker Creations</span>
-                </div>
-                <!-- desktop menu -->
-                <div class="desktop-menu">
-                    <ul>
-                        <li><a href="./index.html"> Home </a></li>
-                        <li><a href="./About.html"> Profile </a></li>
-                        <li><a href="./portfolioSamples.html"> Projects </a></li>
-                        <li><a href="./Contact.html"> Contact </a></li>
-                    </ul>
-                </div>
-
-                <!-- mobiile menu -->
-                <button class="hamburger-icon" id="hamburger-icon">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="menu closed" id="menu">
-                    <button id="close-button">
-                        <i class="fas fa-times"></i>
-                    </button>
-                    <div class="mobile-menu">
+        <header id="menu-section">
+            <div id="main-menu-section">
+                <div class="container d-flex align-items-stretch h-100">
+                    <div class="logo d-flex align-items-center">
+                            <img src="./Pictures/Logo -colored.png" alt="Backpack Logo" width="40" height="40">
+                        <span>Backpacker Creations</span>
+                    </div>
+                    <!-- desktop menu -->
+                    <div class="desktop-menu">
                         <ul>
-                            <li><a href="./index.html"> Home </a></li>
-                            <li><a href="./About.html"> Profile </a></li>
+                            <li><a href="#index-page"> Home </a></li>
+                            <li><a href="#about-page"> Profile </a></li>
                             <li><a href="./portfolioSamples.html"> Projects </a></li>
-                            <li><a href="./Contact.html"> Contact </a></li>
+                            <li><a href="#contact-page"> Contact </a></li>
                         </ul>
                     </div>
+    
+                    <!-- mobiile menu -->
+                    <button class="hamburger-icon" id="hamburger-icon">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="menu closed" id="menu">
+                        <button id="close-button">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <div class="mobile-menu">
+                            <ul>
+                                <li><a href="#index-page"> Home </a></li>
+                                <li><a href="#about-page"> Profile </a></li>
+                                <li><a href="./portfolioSamples.html"> Projects </a></li>
+                                <li><a href="#contact-page"> Contact </a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <script src="./app.js"></script>
-           
-        
             </div>
         </header>
 
@@ -58,7 +57,7 @@
                     <h1>Because the ability to create is within arms reach.</h1>
                     <div class="heroI-button">
                         <p> Click below to learn more.</p>
-                        <form action="./About.html">
+                        <form action="#about-page">
                             <input type="submit" value="Learn More!"/>
                         </form>
                     </div>
@@ -67,7 +66,7 @@
         </div>
 
         <main>
-            <div class="main-wrapper">
+            <div class="main-wrapper" id="index-page">
                 <div class="container ">
                     <h1>A Brief Summary...</h1>
                     <p class="paragraph"> Congratulations! You've successfully navigated to my 
@@ -76,7 +75,7 @@
                         that's through my travels or just every day stuff. Below
                         are a couple of samples of my work. Browse around and enjoy!
                     </p>
-                    <div class="container">
+                    <div class="container sample-boxes">
                         <div class="row">
                             <div class="box1 col-lg-3 col-md-6 ">
                                 <h2>CSS Sample Animation</h2>
@@ -94,6 +93,72 @@
                     </div>
                 </div>
             </div>
+
+
+            <div class="about-wrapper" id="about-page">
+                <div class="container about-image-wrapper">
+                    <div class="about1">
+                        <div class="about-text">
+                            <h1>A little bit about me...</h1>
+                            <p> Born in Manila and immigrating to Canada at 4 years old,
+                                I often call Metro Vancouver my hometown. From the bustling streets
+                                of Richmond to the laid back attitude of Sydney, I grew up 
+                                in the Lower Mainland living in Coquitlam most of my life and 
+                                even Victoria for a short while!
+                            </p>
+                        </div>
+
+                        <div class="row">
+                            <div class="van-img1 col-md-5 col-lg-5"></div>
+                            <div class="van-img2 col-md-5 col-lg-5"></div>
+                        </div>
+                        <div class="about1-cont">
+                            <div class="about1-cont-text">
+                                <h3>I love to travel!</h3>
+                                <p>I began traveling solo at the age of
+                                    seventeen and I never really stopped. 
+                                    from the coastal cities of the United states
+                                    to solo backpacking trips around the United Kingdom 
+                                    and Ireland, it's never been that hard for me to fit
+                                    all my things in a single backpack.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about2">
+                        <h1>My professional background...</h1>
+                        <p> I graduated my bachelor's degree in Econcomics
+                            from Simon Fraser Univerity in British Columbia.
+                            Upon graduating, I started out as an analyst in 
+                            hospitality. That was where I got my first exposure 
+                            into tech through helping to manage a point of 
+                            sales system as a financial planning and POS systems analyst.
+                            As I progressed into my career, I also took part in 
+                            spear-heading and managing a couple of systems migrations
+                            in addition to occasionally working with SQL databases.   
+                        </p>
+                        <p>After realizing that tech was actually where my heart lies, 
+                            I left finance and I began taking courses at the South 
+                            Alberta Institute of Tech (SAIT).
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="heroC" id="contact-page">
+                <div class="heroC-content container">
+                    <div class="profile-pic mx-auto"></div>
+                    <div class="contact-info">
+                        <h1>Ask a question!</h1>
+                        <div class="email">
+                            <i class="far fa-envelope" id="email-icon"></i>
+                            <p id="email-contact">joy.jingco@outlook.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </main>
 
         <footer>
@@ -104,15 +169,38 @@
                     <li> <a href="https://www.instagram.com/joyjnco/"><i class="fab fa-instagram"></i></a></li>
                     <li> <a href="http://ca.linkedin.com/in/jjingco"><i class="fab fa-linkedin"></i></a></li>
                     <li> <a href="https://github.com/jjingco"><i class="fab fa-github"></i></a></li>
-                    <li> <a href="./Contact.html"><i class="far fa-envelope"></i></a></li>
                 </ul>
             </div>
         </footer>
 
+        <script src="./app.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+        <script>
+            $('.smooth').on('click', function() {
+                $.smoothScroll({
+                    scrollElement: $('body'),
+                    scrollTarget: '#' + this.id
+                });
+                
+                return false;
+            });
+            
+            $( ".email" ).click(function() {
+                $('#email-icon').animate({
+                    left:"100",
+                    opacity: 0,
+                    height:"toggle"
+                },1000)
+
+                $('#email-contact').animate({
+                    left:"100",
+                    opacity: 1,
+                    height:"toggle"
+                },2000)
+            });
+
+        </script>
     </body>
 </html>
 
-<!-- paralax --background attachment:fixed -->
-<!-- svg is a vector image  -->
-    <!-- <svg xmlns="path"></svg> -->
-    <!-- flext froggy.com -->
