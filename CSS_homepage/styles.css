@@ -505,10 +505,12 @@ Header
 
 .heroC {
     height: 1100px;
-    background-image: url('../Pictures/contact-background.jpg');
+    background-image: url('../Pictures/background.png'),
+                    url('../Pictures/christopher-czermak-705859-unsplash.jpg');
+    background-attachment:initial,fixed;
     background-size: cover;
     background-position: 50% 0%;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     align-content: center;
     padding-top: 100px;
     font-family: 'Open Sans', sans-serif;
@@ -518,12 +520,13 @@ Header
 .heroC-content {
     width: 60%;
     height: 370px;
-    color:#432b07;
+    color:rgb(255, 64, 96);
     padding: 20px;
     margin-bottom: 50px;
     opacity: 0.9;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
+    font-weight: bold;
 
 }
 
@@ -564,7 +567,7 @@ Header
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    border: 7px solid #ff9e50;
+    border: 7px solid rgb(212, 60, 85);
 }
 
 @media screen and (max-width: 991px) {
