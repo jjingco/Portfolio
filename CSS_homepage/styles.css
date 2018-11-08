@@ -579,15 +579,18 @@ Header
 /**************************************
 EXAMPLES TAB
 **************************************/
+.portfolio-background {
+    background-color: #1a1003;
+    text-align: center;
+}
 .language{
     height: 300px;
     text-align: center;
     color: white;
-    background-color: peru;
+    background-color: #64ac9e;
     padding-top: 70px;
     margin-right: auto;
-    box-shadow: 0px 10px 20px 0px grey;
-    margin: 20px 5px 20px 5px;
+    margin: 25px 15px;
 }
 .language .finishedSample {
     margin-bottom: 50px;
@@ -599,13 +602,13 @@ EXAMPLES TAB
     margin-top: 25px;
 }
 .htmlPage {
-    background-color: whitesmoke;
+    background-color: #ffe69b;
     padding: 5px;
 }
 .gitHublink {
-    background-color: rgb(149, 226, 231);
+    background-color: #dbcbfc;
     padding: 5px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .htmlPage:hover,.gitHublink:hover {
     background-color: aqua;  
