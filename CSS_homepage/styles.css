@@ -586,7 +586,6 @@ Header
     width: 100%;
 }
 .tech-projects {
-    background: red;
     height: 50%;
 }
 .tech-slideshow {
@@ -595,7 +594,7 @@ Header
 }
 .tech-content {
     width: 50%;
-    background: red;;
+    background: white;
 }
 .freelance-work {
     background: pink;
@@ -603,7 +602,7 @@ Header
 }
 .freelance-slideshow {
     width: 50%;
-    background: cyan;
+    background: white;
 }
 .freelance-content {
     width: 50%;
