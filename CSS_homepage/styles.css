@@ -113,6 +113,7 @@ Media Query
     header {
         height: 60px;
     }
+
 }
 
 
@@ -323,7 +324,6 @@ Main
 * * * * * * * * * * * * * * * * * * * * */
 
 .about-wrapper  {
-    padding:100px 0px;
     background-image: 
         linear-gradient(90deg, rgba(0,0,0,0.7), rgba(0,0,0,0)),
         url(../Pictures/About-Page/ian-froome-367862-unsplash.jpg);
@@ -335,6 +335,7 @@ Main
     opacity: 0.90;
     color: white;
     font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
 }
 
 .about1 {
@@ -381,6 +382,29 @@ Main
 .about-text {
     margin-bottom: 50px;
 }
+.about-content-wrapper{
+    z-index: 2;
+    margin-top: -500px;
+}
+
+#triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 500px solid rgb(128, 83, 39);
+    border-right: 500px solid transparent;
+    z-index: 1;
+  }
+
+#triangle-bottomright {
+width: 0;
+height: 0;
+border-bottom: 400px solid rgb(128, 83, 39);
+border-left: 400px solid transparent;
+z-index: 1;
+float: right;
+margin-top: -390px;
+}
+
 
 /* ************************  SERVICES PAGE ONLY ***************************** */
 
