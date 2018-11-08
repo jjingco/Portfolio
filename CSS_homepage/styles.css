@@ -518,7 +518,7 @@ Header
 .heroC-content {
     width: 60%;
     height: 370px;
-    color:black;
+    color:#432b07;
     padding: 20px;
     margin-bottom: 50px;
     opacity: 0.9;
@@ -576,6 +576,37 @@ Header
         font-size: 4em;
     }
 }
+
+/* ************************  PROJECTS PAGE ONLY ***************************** */
+#projects-page {
+    height: 1000px;
+    width: 100%;
+}
+.tech-projects {
+    background: red;
+    height: 50%;
+}
+.tech-slideshow {
+    width: 50%;
+    background: green;
+}
+.tech-content {
+    width: 50%;
+    background: red;;
+}
+.freelance-work {
+    background: pink;
+    height: 50%;
+}
+.freelance-slideshow {
+    width: 50%;
+    background: cyan;
+}
+.freelance-content {
+    width: 50%;
+    background: orange;
+}
+
 /**************************************
 EXAMPLES TAB
 **************************************/
@@ -620,3 +651,5 @@ EXAMPLES TAB
     text-decoration: none; 
 }
 
+
+/* https://tympanus.net/Development/HoverEffectIdeas/   --> wild Romeo*/
