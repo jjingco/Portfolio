@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">        
         <link href="https://fonts.googleapis.com/css?family=Tangerine:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
         <link rel="stylesheet" href="./CSS_homepage/styles.css">
         <title>Home</title>
     </head>
@@ -179,6 +180,7 @@
         <script src="./app.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script>
             $('.smooth').on('click', function() {
                 $.smoothScroll({
@@ -189,7 +191,12 @@
                 return false;
             });
             
+            var emailBounce =setInterval(function() {
+                $( "#email-icon" ).effect('bounce',1000)
+            },2000);
+
             $( ".email" ).click(function() {
+
                 $('#email-icon').animate({
                     left:"100",
                     opacity: 0,
@@ -201,9 +208,13 @@
                     opacity: 1,
                     height:"toggle"
                 },2000)
-            });
 
+                clearInterval(emailBounce);
+            });
+            
         </script>
+
+        
     </body>
 </html>
 

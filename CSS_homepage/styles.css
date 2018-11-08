@@ -325,7 +325,7 @@ Main
 
 .about-wrapper  {
     background-image: 
-        linear-gradient(90deg, rgba(0,0,0,0.7), rgba(0,0,0,0)),
+        linear-gradient(90deg, rgba(0,0,0,0.7), rgba(0,0,0,0.4)),
         url(../Pictures/About-Page/ian-froome-367862-unsplash.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -335,7 +335,7 @@ Main
     opacity: 0.90;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    padding-bottom: 10px;
+    padding-bottom: 150px;
 }
 
 .about1 {
@@ -345,7 +345,7 @@ Main
 
 
 .about2 {
-    margin-top: 50px;
+    margin-top: 200px;
     width: 80%;
     text-align: end;
     color: white;
@@ -384,13 +384,13 @@ Main
 }
 .about-content-wrapper{
     z-index: 2;
-    margin-top: -500px;
+    margin-top: -450px;
 }
 
 #triangle-topleft {
     width: 0;
     height: 0;
-    border-top: 500px solid rgb(128, 83, 39);
+    border-top: 500px solid rgb(99, 57, 16);
     border-right: 500px solid transparent;
     z-index: 1;
   }
@@ -398,11 +398,11 @@ Main
 #triangle-bottomright {
 width: 0;
 height: 0;
-border-bottom: 400px solid rgb(128, 83, 39);
-border-left: 400px solid transparent;
+border-bottom: 500px solid rgb(99, 57, 16);
+border-left: 500px solid transparent;
 z-index: 1;
 float: right;
-margin-top: -390px;
+margin-top: -350px;
 }
 
 
@@ -505,7 +505,7 @@ Header
 * * * * * * * * * * * * * * * * * * * * */
 
 .heroC {
-    height: 1000px;
+    height: 1100px;
     background-image: url('../Pictures/contact-background.jpg');
     background-size: cover;
     background-position: 50% 0%;
@@ -524,7 +524,7 @@ Header
     margin-bottom: 50px;
     opacity: 0.9;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
 
 }
 
@@ -544,6 +544,7 @@ Header
     color: #ff9e50;
     z-index: 1;
 }
+
 
 #email-contact {
     display: none;
