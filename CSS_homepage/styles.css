@@ -389,7 +389,7 @@ Main
 #triangle-topleft {
     width: 0;
     height: 0;
-    border-top: 500px solid rgb(99, 57, 16);
+    border-top: 500px solid #432b07;
     border-right: 500px solid transparent;
     z-index: 1;
   }
@@ -397,7 +397,7 @@ Main
 #triangle-bottomright {
 width: 0;
 height: 0;
-border-bottom: 500px solid rgb(99, 57, 16);
+border-bottom: 500px solid #432b07;
 border-left: 500px solid transparent;
 z-index: 1;
 float: right;
