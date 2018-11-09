@@ -571,7 +571,7 @@ hr {
     color: rgb(255, 212, 168);
     text-decoration: none;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
 
     #projects-page {
         height: 800px;
@@ -581,7 +581,7 @@ hr {
     }
     .project-description {
         margin-top: 20px;
-        font-size: 0.5em;
+        font-size: 0.67em;
         line-height: 1.2em;
         padding-bottom: 10px;
     }
@@ -592,12 +592,44 @@ hr {
         margin-top: 70px;
     }
     h4{
-        margin-top: 15px;
-        font-size: 0.75em;
+        margin-top: 50px;
+        font-size: 0.85em;
+    }
+    h5 {
+        font-size: 1.6em;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+
+    #projects-page {
+        height: 1000px;
+    }
+    .tech-projects,.freelance-work {
+        height: 50%;
+    }
+    .project-description {
+        margin-top: 20px;
+        font-size: 0.6em;
+        line-height: 1.2em;
+        padding-bottom: 10px;
+    }
+    .project-description p {
+        padding-top: 0px;
+        margin-bottom:8px; 
+    }
+    .project-animation {
+        margin-top: 70px;
+    }
+    h4{
+        margin-top: 50px;
+        font-size: 0.85em;
     }
     h5 {
         font-size: 1.5em;
-    }
+    } 
+}
 
 /* ************************  PROJECTS PAGE ONLY ***************************** */
 
