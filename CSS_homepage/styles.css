@@ -153,9 +153,7 @@ footer p {
 
 /* ************************  INDEX PAGE ONLY ***************************** */
 
-/* * * * * * * * * * * * * * * * * * * * *
-Hero
-* * * * * * * * * * * * * * * * * * * * */
+
 .heroI {
     height: 725px;
     background-image:  
@@ -220,10 +218,6 @@ Hero
 
 
 
-
-/* * * * * * * * * * * * * * * * * * * * *
-Main
-* * * * * * * * * * * * * * * * * * * * */
 .main-wrapper {
     min-height: 500px;
     padding: 50px 0;
@@ -318,9 +312,7 @@ main h1 {
 
 /* ************************  ABOUT PAGE ONLY ***************************** */
 
-/* * * * * * * * * * * * * * * * * * * * *
-Main
-* * * * * * * * * * * * * * * * * * * * */
+
 
 .about-wrapper  {
     background-image: 
@@ -405,109 +397,14 @@ margin-top: -350px;
 }
 
 
-/* ************************  SERVICES PAGE ONLY ***************************** */
-
-/* * * * * * * * * * * * * * * * * * * * *
-Main
-* * * * * * * * * * * * * * * * * * * * */
-.services-wrapper {
-    padding:70px 0;
-    background-image:  
-        url(../Pictures/Services-Page/joel-sparks-647390-unsplash.jpg);
-    background-size: cover;
-    background-position: 75% 50%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    align-content: center;
-    font-family: 'Open Sans', sans-serif;
-}
-
-
-.services-box1,
-.services-box2,
-.services-box3 {
-    height: 550px;
-    margin-bottom: 100px;
-    margin-right: auto;
-    opacity: 0.85;
-    background:linear-gradient(
-        180deg, 
-        rgba(0, 0, 0, 1), 
-        rgba(0, 0, 0, 0.5));
-    position: relative;
-    border: 1px solid peru;
-}
-
-.services-box3 {
-    margin-right: 0;
-}
-
-.services-box-content {
-    opacity: 1;
-    color: white;
-}
-
-.services-box-content h1 {
-    font-family: 'Tangerine', cursive;
-    font-weight: 700;
-    font-size: 2.5em;
-    text-align: center;
-    margin-top: 100px;
-}
-
-
-.qualifications {
-    height: 250px;
-    margin-bottom: 0;
-    padding: 20px 30px 0px 30px;
-    margin-top: -130px;
-    transform: translate(0px, 0px);
-    position: relative;
-    line-height: 1.5em;
-}
-
-
-
-.border-box {
-    height: 250px;
-    width: 100%;
-    position: relative;
-    background: transparent;
-    transform: translate(0px, -150px);
-    border: 7px solid peru;
-    z-index: 1;
-}
-
-.services-box1:hover .border-box {
-    transition: 0.6s ease-in-out;
-    transform: translate(0px, 120px);
-}
-
-.services-box2:hover .border-box {
-    transition: 0.6s ease-in-out;
-    transform: translate(0px, 120px);
-}
-
-
-.services-box3:hover .border-box {
-    transition: 0.6s ease-in-out;
-    transform: translate(0px, 120px);
-}
-
-
-
 
 /* ************************  CONTACT  PAGE ONLY ***************************** */
 
-/* * * * * * * * * * * * * * * * * * * * *
-Header
-* * * * * * * * * * * * * * * * * * * * */
+
 
 .heroC {
     height: 1100px;
-    background-image: url('../Pictures/background.png'),
-                    url('../Pictures/christopher-czermak-705859-unsplash.jpg');
-    background-attachment:initial,fixed;
+    background-image:url('../Pictures/background.jpg');
     background-size: cover;
     background-position: 50% 0%;
     background-repeat:no-repeat;
@@ -520,7 +417,7 @@ Header
 .heroC-content {
     width: 60%;
     height: 370px;
-    color:rgb(255, 50, 84);
+    color:#432b07;
     padding: 20px;
     margin-bottom: 50px;
     opacity: 0.9;
@@ -552,7 +449,7 @@ Header
     display: none;
     font-size: 20px;
     font-weight: bold;
-    color: rgb(255, 132, 153);
+    color: white;
 }
 
 .contact-info{
@@ -567,7 +464,7 @@ Header
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    border: 7px solid rgb(212, 60, 85);
+    border: 7px solid #432b07;
 }
 
 @media screen and (max-width: 991px) {
@@ -582,36 +479,107 @@ Header
 
 /* ************************  PROJECTS PAGE ONLY ***************************** */
 #projects-page {
-    height: 1000px;
     width: 100%;
+    height: 1500px;
+    background-color: white;
+    padding: 25px;
 }
-.tech-projects {
+.tech-projects,.freelance-work {
     height: 50%;
 }
-.tech-slideshow {
+.tech-animation {
     width: 50%;
-    background: green;
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.7), rgba(0,0,0,0.4)),
+        url(../Pictures/christopher-czermak-705859-unsplash.jpg);
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .tech-content {
     width: 50%;
-    background: white;
 }
-.freelance-work {
-    background: pink;
-    height: 50%;
-}
-.freelance-slideshow {
+.freelance-animation {
     width: 50%;
-    background: white;
+    background-image:linear-gradient(90deg, rgba(0,0,0,0.4), rgba(0,0,0,0)),
+        url(../Pictures/luca-bravo-453157-unsplash.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .freelance-content {
     width: 50%;
-    background: orange;
+    
+}
+.project-description {
+    width: 80%;
+    background: #f0f0f0;
+    margin-top: 200px;
+    padding: 25px;
+    font-size: 14px;
+    line-height: 1.3em;
+
+}
+.project-animation {
+    margin-top: 125px;
+    background-color: #1a1003;
+    height: 50%;
+    width: 70%;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    opacity: 0.95;
 }
 
-/**************************************
-EXAMPLES TAB
-**************************************/
+h4{
+    margin-top: 130px;
+    padding: 10px;
+}
+hr {
+    border: 1px solid #c3c3c3;
+    margin: 0px;
+}
+.hr2 {
+    z-index: -2;
+}
+.hr1 {
+    z-index: -1;
+}
+.project-animation a{
+    opacity: 0;
+    color: #1a1003;
+}
+.project-animation:hover .hr2{
+    transition: 0.5s ease-in-out;
+    transform: rotate(45deg);
+    border: 1px solid peru;
+    opacity: 0.50;
+}
+.project-animation:hover .hr1 {
+    transition: 0.5s ease-in-out;
+    transform: rotate(-45deg);
+    border: 1px solid peru;
+    opacity: 0.50;
+}
+.project-animation:hover {
+    background-color:#2f1d06;
+}
+.project-animation:hover a {
+    opacity: 1;
+    transition: 1s ease-in-out;
+    color: rgb(255, 212, 168);
+    text-decoration: none;
+}
+@media screen and (max-width: 750px) {
+
+    .project-description {
+        margin-top: 40px;
+    }
+}
+
+/* ************************  PROJECTS PAGE ONLY ***************************** */
+
 .portfolio-background {
     background-color: #1a1003;
     text-align: center;
