@@ -571,7 +571,8 @@ hr {
     color: rgb(255, 212, 168);
     text-decoration: none;
 }
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width:425px) and (min-width:376px){
 
     #projects-page {
         height: 800px;
@@ -600,8 +601,7 @@ hr {
     }
 }
 
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width:375px) and (min-width:321px){
 
     #projects-page {
         height: 800px;
