@@ -573,10 +573,31 @@ hr {
 }
 @media screen and (max-width: 750px) {
 
-    .project-description {
-        margin-top: 40px;
+    #projects-page {
+        height: 800px;
     }
-}
+    .tech-projects,.freelance-work {
+        height: 50%;
+    }
+    .project-description {
+        margin-top: 20px;
+        font-size: 0.5em;
+        line-height: 1.2em;
+        padding-bottom: 10px;
+    }
+    .project-description p {
+        padding-top: 0px;
+    }
+    .project-animation {
+        margin-top: 70px;
+    }
+    h4{
+        margin-top: 15px;
+        font-size: 0.75em;
+    }
+    h5 {
+        font-size: 1.5em;
+    }
 
 /* ************************  PROJECTS PAGE ONLY ***************************** */
 
