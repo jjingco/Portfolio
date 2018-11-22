@@ -312,11 +312,9 @@ main h1 {
 
 /* ************************  ABOUT PAGE ONLY ***************************** */
 
-
-
 .about-wrapper  {
     background-image: 
-        linear-gradient(90deg, rgba(0,0,0,0.7), rgba(0,0,0,0.4)),
+        linear-gradient(90deg, rgba(0,0,0,0.8), rgba(0,0,0,0.4)),
         url(../Pictures/About-Page/ian-froome-367862-unsplash.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -324,14 +322,16 @@ main h1 {
     opacity: 0.95;
     background-repeat: no-repeat;
     opacity: 0.90;
-    color: white;
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 150px;
+    color: rgb(255, 115, 0);
+    font-weight: bold;
 }
 
 .about1 {
     margin-top: 50px;
     width: 80%;
+    opacity: 1;
 }
 
 
@@ -339,8 +339,8 @@ main h1 {
     margin-top: 200px;
     width: 80%;
     text-align: end;
-    color: white;
     margin-left: auto;
+    opacity: 1;
 }
 
 
@@ -377,12 +377,11 @@ main h1 {
     z-index: 2;
     margin-top: -450px;
 }
-
 #triangle-topleft {
     width: 0;
     height: 0;
     border-top: 500px solid white;
-    border-right: 500px solid transparent;
+    border-right: 300px solid transparent;
     z-index: 1;
   }
 
@@ -390,7 +389,7 @@ main h1 {
 width: 0;
 height: 0;
 border-bottom: 500px solid white;
-border-left: 500px solid transparent;
+border-left: 300px solid transparent;
 z-index: 1;
 float: right;
 margin-top: -350px;
