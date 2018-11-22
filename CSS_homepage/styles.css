@@ -381,7 +381,7 @@ main h1 {
 #triangle-topleft {
     width: 0;
     height: 0;
-    border-top: 500px solid #432b07;
+    border-top: 500px solid white;
     border-right: 500px solid transparent;
     z-index: 1;
   }
@@ -389,7 +389,7 @@ main h1 {
 #triangle-bottomright {
 width: 0;
 height: 0;
-border-bottom: 500px solid #432b07;
+border-bottom: 500px solid white;
 border-left: 500px solid transparent;
 z-index: 1;
 float: right;
