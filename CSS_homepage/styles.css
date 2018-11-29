@@ -587,7 +587,7 @@ hr {
     background-color: #1a1003;
     text-align: center;
 }
-.language{
+.language, .non-school{
     height: 300px;
     text-align: center;
     color: white;
@@ -598,6 +598,12 @@ hr {
 }
 .language .finishedSample {
     margin-bottom: 50px;
+}
+.non-school{
+    height: 300px;
+    text-align: center;
+    color: white;
+    background-color:#bb5a6d;
 }
 #langBtm1, #langBtm2, #langBtm3 {
     margin-bottom: 50px;
@@ -624,5 +630,3 @@ hr {
     text-decoration: none; 
 }
 
-
-/* https://tympanus.net/Development/HoverEffectIdeas/   --> wild Romeo*/

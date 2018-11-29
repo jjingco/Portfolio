@@ -78,8 +78,8 @@
                         <div class="row">
                             <div class="box1 col-lg-5 col-md-5 ">
                                 <h2>Side Projects</h2>
-                                <p class="portfolio-link">
-                                    <a href="./portfolioSamples.html"> 
+                                <p class="portfolio-link" id="show-samples">
+                                    <a href="#projects-page"> 
                                         View Projects
                                     </a>
                                 </p>
@@ -167,9 +167,10 @@
                             <h4>Side Projects</h4>
                             <hr class="hr1">
                             <hr class="hr2">
-                            <a href="./portfolioSamples.html">
+                            <!-- <button id="show-samples">
                                 View Projects
-                            </a>
+                            </button> -->
+                            <a href="./portfolioSamples.html"> View Projects</a>
                         </figcaption>
                     </div>
                 </div>
@@ -206,6 +207,79 @@
                     </div>
                 </div>
             </div>
+
+            <!-- <div id="samples-page">
+                <div class="languages d-flex align-items-stretch">
+                    <div class="container">
+                        <div>
+                            <button id="hide-samples">HIDE SAMPLES</button>
+                        </div>
+                        <div class="row d-flex justify-content-center">
+                            <div class="language col-lg-3 col-md-5">
+                                <h2 class="finishedSample">CSS Animation</h2>
+                                <div class="navigation container">
+                                    <a href="./CSS Example/cssAnimation.html">
+                                        <div class="htmlPage">Show Me!</div>
+                                    </a>
+                                    <a href="https://github.com/jjingco/Portfolio/tree/master/CSS%20Example">
+                                        <div class="gitHublink">Github Link</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="language col-lg-3 col-md-5">
+                                <h2>PHP Example</h2>
+                                <h3>with Laravel & MySQL</h3>
+                                <div class="navigation container">
+                                    <a href="http://ec2-35-182-66-184.ca-central-1.compute.amazonaws.com/">
+                                        <div class="htmlPage">Show Me!</div>
+                                    </a> -->
+                                    <!--<div class="gitHublink"><a href="#">Github Link</a></div> -->
+                                <!-- </div>
+                            </div>
+                            <div class="language col-lg-3 col-md-5">
+                                <h2 class="finishedSample">JavaScript Animation</h2>
+                                <div class="navigation container">
+                                    <a href="./JavaScript Example/javascriptExample.html">
+                                        <div class="htmlPage">Show Me!</div>
+                                    </a>
+                                    <a href="https://github.com/jjingco/Portfolio/tree/master/JavaScript%20Example">
+                                        <div class="gitHublink">Github Link</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="language col-lg-3 col-md-5 non-school">
+                                <h2>JQuery Animation</h2>
+                                <div class="navigation container">
+                                    <a href="./JQuery Example/jqueryExample.html">
+                                        <div class="htmlPage">Show Me!</div>
+                                    </a>
+                                    <a href="https://github.com/jjingco/Portfolio/tree/master/JQuery%20Example">
+                                        <div class="gitHublink">Github Link</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="language col-lg-3 col-md-5 non-school">
+                                <h2>myMap</h2>
+                                <p>Coming soon...</p>
+                                <div class="navigation container"> -->
+                                    <!-- <div class="htmlPage"><a href="#">Show Me!</a></div>
+                                    <div class="gitHublink"><a href="#">Github Link</a></div> -->
+                                <!-- </div>
+                            </div>
+                            <div class="language col-lg-3 col-md-5 non-school">
+                                <h2>React Animation</h2>
+                                <p>Coming soon...</p>
+                                <div class="navigation container"> -->
+                                    <!-- <div class="htmlPage"><a href="#">Show Me!</a></div>
+                                    <div class="gitHublink"><a href="#">Github Link</a></div> -->
+                                <!-- </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div> -->
+
+
 
 
             <div class="heroC" id="contact-page">
@@ -288,10 +362,17 @@
                                     opacity:"1",
                                     left:"100",
                                 }
-                            ,1000);
+                            ,1500);
                         }
                     }); 
                 });
+            //     $("#hide-samples").click(function(){
+            //         $("#samples-page").hide();
+            //     });
+            //     $("#show-samples").click(function(){
+            //         $("#samples-page").show();
+            //     });
+
             });
             
         </script>
