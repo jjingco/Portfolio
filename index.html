@@ -68,7 +68,7 @@
             <div class="main-wrapper" id="index-page">
                 <div class="container ">
                     <h1>A Brief Summary...</h1>
-                    <p class="paragraph"> Congratulations! You've successfully navigated to my 
+                    <p class="paragraph fade-in"> Congratulations! You've successfully navigated to my 
                         webpage. A once upon a time business analyst turned web
                         developer, I'm always on the look out for inspiration whether
                         that's through my travels or just every day stuff. Below
@@ -98,7 +98,7 @@
                 <div id="triangle-topleft"></div>
                 <div class="container about-content-wrapper">
                     <div class="about1">
-                        <div class="about-text">
+                        <div class="about-text fade-in">
                             <h1>A little bit about me...</h1>
                             <p> Born in Manila and immigrating to Canada at 4 years old,
                                 I often call Metro Vancouver my hometown. From the bustling streets
@@ -113,7 +113,7 @@
                             <div class="van-img2 col-md-5 col-lg-5"></div>
                         </div>
                         <div class="about1-cont">
-                            <div class="about1-cont-text">
+                            <div class="about1-cont-text fade-in">
                                 <h3>I love to travel!</h3>
                                 <p>I began traveling solo at the age of
                                     seventeen and I never really stopped. 
@@ -125,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="about2">
+                    <div class="about2 fade-in">
                         <h1>My professional background...</h1>
                         <p> I graduated my bachelor's degree in Econcomics
                             from Simon Fraser Univerity in British Columbia.
@@ -149,7 +149,7 @@
             <div id="projects-page" class=" container">
                 <div class="tech-projects row"> 
                     <div class="tech-content  col-lg-6 col-md-6">
-                        <div class="project-description mx-auto">
+                        <div class="project-description mx-auto fade-in">
                             <h5>
                                 I love to take on my own little projects...
                             </h5>
@@ -185,7 +185,7 @@
                         </figcaption>
                     </div>
                     <div class="freelance-content col-lg-6 col-md-6">
-                        <div class="project-description description2 mx-auto">
+                        <div class="project-description description2 mx-auto fade-in">
                             <h5>The concept...</h5>
                             <p>Backpacker Creations stems from that 
                                 feeling you get when you find yourself
@@ -212,7 +212,7 @@
                 <div class="heroC-content container">
                     <div class="profile-pic mx-auto"></div>
                     <div class="contact-info">
-                        <h1>Ask a question!</h1>
+                        <h1 class="fade-in">Ask a question!</h1>
                         <div class="email">
                             <i class="far fa-envelope" id="email-icon"></i>
                             <p id="email-contact">joy.jingco@outlook.com</p>
@@ -268,6 +268,30 @@
                 },2000)
 
                 clearInterval(emailBounce);
+            });
+
+
+            $(document).ready(function() {
+            /* Every time the window is scrolled ... */
+                $(window).scroll( function(){
+                    /* Check the location of each desired element */
+                    $('.fade-in').each( function(i)
+                    {
+                        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                        var bottom_of_window = $(window).scrollTop() + $(window).height();
+                        
+                        /* If the object is completely visible in the window, fade it it */
+                        if( bottom_of_window > bottom_of_object )
+                        {    
+                            $(this).animate(
+                                {
+                                    opacity:"1",
+                                    left:"100",
+                                }
+                            ,1000);
+                        }
+                    }); 
+                });
             });
             
         </script>

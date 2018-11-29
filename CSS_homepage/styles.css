@@ -95,7 +95,9 @@ header .mobile-menu ul {
     color: black;
 }
 
-
+.fade-in {
+    opacity: 0;
+}
 
 /* * * * * * * * * * * * * * * * * * * * *
 Media Query
