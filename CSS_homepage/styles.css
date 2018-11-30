@@ -316,7 +316,7 @@ main h1 {
 
 .about-wrapper  {
     background-image: 
-        linear-gradient(90deg, rgba(0,0,0,0.8), rgba(0,0,0,0.4)),
+        linear-gradient(90deg, rgba(0,0,0,0.5),  rgba(0,0,0,0.45)), 
         url(../Pictures/About-Page/ian-froome-367862-unsplash.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -326,7 +326,7 @@ main h1 {
     opacity: 0.90;
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 150px;
-    color: rgb(255, 115, 0);
+    color: #EB6500;
     font-weight: bold;
 }
 
@@ -554,11 +554,34 @@ hr {
 .project-animation:hover {
     background-color:#2f1d06;
 }
-.project-animation:hover a {
+#show, #show2 {
+    background: none;
+    border: none;
+    opacity: 0;
+    text-decoration: none;
+}
+.project-animation:hover #show {
     opacity: 1;
     transition: 1s ease-in-out;
     color: rgb(255, 212, 168);
     text-decoration: none;
+}
+.project-animation:hover #show2 {
+    opacity: 1;
+    transition: 1s ease-in-out;
+    color: rgb(255, 212, 168);
+    text-decoration: none;
+}
+#hide {
+    background-color: peru;
+    border: none;
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+#hide:hover {
+    background-color: aqua;
 }
 @media (max-width: 767.98px) {
     #projects-page {
@@ -579,7 +602,6 @@ hr {
     .tech-content,.freelance-content {
         padding: 0px;
     }
-
  }
 /* ************************  PROJECT EXAMPLES PAGE ONLY ***************************** */
 
@@ -629,4 +651,7 @@ hr {
     font-weight: bold;
     text-decoration: none; 
 }
-
+#samples-page {
+    display: none;
+    text-align: center;
+}

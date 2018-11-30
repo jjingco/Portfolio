@@ -125,9 +125,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="about2 fade-in">
-                        <h1>My professional background...</h1>
-                        <p> I graduated my bachelor's degree in Econcomics
+                    <div class="about2">
+                        <h1 class="fade-in">My professional background...</h1>
+                        <p class="fade-in"> 
+                            I graduated my bachelor's degree in Econcomics
                             from Simon Fraser Univerity in British Columbia.
                             Upon graduating, I started out as an analyst in 
                             hospitality. That was where I got my first exposure 
@@ -137,7 +138,8 @@
                             spear-heading and managing a couple of systems migrations
                             in addition to occasionally working with SQL databases.   
                         </p>
-                        <p>After realizing that tech was actually where my heart lies, 
+                        <p class="fade-in">
+                            After realizing that tech was actually where my heart lies, 
                             I left finance and I began taking courses at the South 
                             Alberta Institute of Tech (SAIT).
                         </p>
@@ -163,27 +165,25 @@
                         </div>
                     </div>
                     <div class="tech-animation col-lg-6 col-md-6">
-                        <figcaption class="project-animation mx-auto">
+                        <div class="project-animation mx-auto">
                             <h4>Side Projects</h4>
                             <hr class="hr1">
                             <hr class="hr2">
-                            <!-- <button id="show-samples">
-                                View Projects
-                            </button> -->
-                            <a href="./portfolioSamples.html"> View Projects</a>
-                        </figcaption>
+                            <button id="show"> View Projects</button>
+                            <!-- <a href="./portfolioSamples.html"> View Projects</a> -->
+                        </div>
                     </div>
                 </div>
                 <div class="freelance-work row"> 
                     <div class="freelance-animation col-lg-6 col-md-6">
-                        <figcaption class="project-animation mx-auto">
+                        <div class="project-animation mx-auto">
                             <h4>Freelance Work</h4>
                             <hr class="hr1">
                             <hr class="hr2">
-                            <a href="">
+                            <button id="show2" >
                                 Coming Soon...
-                            </a>
-                        </figcaption>
+                            </button>
+                        </div>
                     </div>
                     <div class="freelance-content col-lg-6 col-md-6">
                         <div class="project-description description2 mx-auto fade-in">
@@ -208,11 +208,11 @@
                 </div>
             </div>
 
-            <!-- <div id="samples-page">
+            <div id="samples-page">
                 <div class="languages d-flex align-items-stretch">
                     <div class="container">
                         <div>
-                            <button id="hide-samples">HIDE SAMPLES</button>
+                            <button id="hide">HIDE SAMPLES</button>
                         </div>
                         <div class="row d-flex justify-content-center">
                             <div class="language col-lg-3 col-md-5">
@@ -232,9 +232,9 @@
                                 <div class="navigation container">
                                     <a href="http://ec2-35-182-66-184.ca-central-1.compute.amazonaws.com/">
                                         <div class="htmlPage">Show Me!</div>
-                                    </a> -->
+                                    </a>
                                     <!--<div class="gitHublink"><a href="#">Github Link</a></div> -->
-                                <!-- </div>
+                                </div>
                             </div>
                             <div class="language col-lg-3 col-md-5">
                                 <h2 class="finishedSample">JavaScript Animation</h2>
@@ -261,23 +261,23 @@
                             <div class="language col-lg-3 col-md-5 non-school">
                                 <h2>myMap</h2>
                                 <p>Coming soon...</p>
-                                <div class="navigation container"> -->
+                                <div class="navigation container">
                                     <!-- <div class="htmlPage"><a href="#">Show Me!</a></div>
                                     <div class="gitHublink"><a href="#">Github Link</a></div> -->
-                                <!-- </div>
+                                </div>
                             </div>
                             <div class="language col-lg-3 col-md-5 non-school">
                                 <h2>React Animation</h2>
                                 <p>Coming soon...</p>
-                                <div class="navigation container"> -->
+                                <div class="navigation container">
                                     <!-- <div class="htmlPage"><a href="#">Show Me!</a></div>
                                     <div class="gitHublink"><a href="#">Github Link</a></div> -->
-                                <!-- </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>    
-            </div> -->
+            </div>
 
 
 
@@ -326,6 +326,7 @@
             var emailBounce =setInterval(function() {
                 $( "#email-icon" ).effect('bounce',1000)
             },2000);
+           
 
             $( ".email" ).click(function() {
 
@@ -366,15 +367,14 @@
                         }
                     }); 
                 });
-            //     $("#hide-samples").click(function(){
-            //         $("#samples-page").hide();
-            //     });
-            //     $("#show-samples").click(function(){
-            //         $("#samples-page").show();
-            //     });
-
             });
-            
+            $("#hide").click(function(){
+                $("#samples-page").hide(1000);
+            });
+            $("#show").click(function(){
+                $("#samples-page").show(2500);
+            });
+
         </script>
 
         
