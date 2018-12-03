@@ -18,5 +18,5 @@
 <ul>
   <li> Python </li>
   <li> JQuery </li>
-  <li> React Native </li>
+  <li> React</li>
 </ul>
