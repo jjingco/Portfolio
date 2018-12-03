@@ -569,7 +569,6 @@ hr {
 .htmlPage:hover,.gitHublink:hover {
     background-color: aqua;  
 }
-
 .navigation a {
     color: black;
     font-weight: bold;
@@ -578,6 +577,10 @@ hr {
 #samples-page {
     display: none;
     text-align: center;
+}
+.case-study {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 /* ************************  CONTACT  PAGE ONLY ***************************** */
