@@ -397,87 +397,6 @@ float: right;
 margin-top: -350px;
 }
 
-
-
-/* ************************  CONTACT  PAGE ONLY ***************************** */
-
-
-
-.heroC {
-    height: 1100px;
-    background-image:url('../Pictures/background.jpg');
-    background-size: cover;
-    background-position: 50% 0%;
-    background-repeat:no-repeat;
-    align-content: center;
-    padding-top: 100px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-
-.heroC-content {
-    width: 60%;
-    height: 370px;
-    color:#432b07;
-    padding: 20px;
-    margin-bottom: 50px;
-    opacity: 0.9;
-    text-align: center;
-    margin-top: 150px;
-    font-weight: bold;
-
-}
-
-.heroC-content h1 {
-    font-family: 'Tangerine', cursive;
-    font-size: 7em;
-    margin-top: 20px;
-    font-weight: 700;
-}
-
-.email {
-    font-size: 100px;
-}
-
-#email-icon:hover {
-    cursor: pointer;
-    color: #ff9e50;
-    z-index: 1;
-}
-
-
-#email-contact {
-    display: none;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
-
-.contact-info{
-    margin-top: 70px;
-    font-weight: bold;
-}
-
-.profile-pic {
-    height: 250px;
-    width: 250px;
-    background-image: url('../Pictures/IMG_1046.JPG');
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    border: 7px solid #432b07;
-}
-
-@media screen and (max-width: 991px) {
-
-    .heroC-content {
-        width: 100%;
-    }
-    .heroC-content h1{
-        font-size: 4em;
-    }
-}
-
 /* ************************  PROJECTS PAGE ONLY ***************************** */
 #projects-page {
     background-color: white;
@@ -568,6 +487,7 @@ hr {
     transition: 1s ease-in-out;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 .project-animation:hover #show2 {
     opacity: 1;
@@ -585,6 +505,7 @@ hr {
 }
 #hide:hover {
     background-color: aqua;
+    cursor: pointer;
 }
 @media (max-width: 767.98px) {
     #projects-page {
@@ -657,4 +578,82 @@ hr {
 #samples-page {
     display: none;
     text-align: center;
+}
+
+/* ************************  CONTACT  PAGE ONLY ***************************** */
+
+
+
+.heroC {
+    height: 1100px;
+    background-image:url('../Pictures/background.jpg');
+    background-size: cover;
+    background-position: 50% 0%;
+    background-repeat:no-repeat;
+    align-content: center;
+    padding-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.heroC-content {
+    width: 60%;
+    height: 370px;
+    color:#432b07;
+    padding: 20px;
+    margin-bottom: 50px;
+    opacity: 0.9;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: bold;
+
+}
+
+.heroC-content h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 7em;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.email {
+    font-size: 100px;
+}
+
+#email-icon:hover {
+    cursor: pointer;
+    color: #ff9e50;
+    z-index: 1;
+}
+
+#email-contact {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.contact-info{
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+.profile-pic {
+    height: 250px;
+    width: 250px;
+    background-image: url('../Pictures/IMG_1046.JPG');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: 7px solid #432b07;
+}
+
+@media screen and (max-width: 991px) {
+
+    .heroC-content {
+        width: 100%;
+    }
+    .heroC-content h1{
+        font-size: 4em;
+    }
 }
