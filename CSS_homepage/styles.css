@@ -501,11 +501,11 @@ margin-top: -350px;
 }
 .project-description {
     background: #f0f0f0;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 25px;
     font-size: 14px;
     line-height: 1.3em;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .description2 {
     margin-bottom: 50px;
@@ -555,15 +555,18 @@ hr {
     background-color:#2f1d06;
 }
 #show, #show2 {
-    background: none;
+    background: peru;
     border: none;
     opacity: 0;
     text-decoration: none;
 }
+#show2 {
+    background: none;
+}
 .project-animation:hover #show {
     opacity: 1;
     transition: 1s ease-in-out;
-    color: rgb(255, 212, 168);
+    color: white;
     text-decoration: none;
 }
 .project-animation:hover #show2 {
