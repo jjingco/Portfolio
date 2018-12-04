@@ -24,24 +24,24 @@
         constructor(){
             super();
             this.state = {
-                light : {room :"#f7ccd5", 
-                        outside:"#87ceeb",
-                        windowOutline:"10px solid #EB6500", 
-                        moon:"yellow", 
-                        alarm:"rgb(0, 202, 169)",
-                        table:"#EB0042", 
-                        floor:"rgb(88, 47, 0)"}
-                };
-            }
-            changeColor(){
-            this.setState({
-                light: {room :"#b6969d", 
+                light : {room :"#b6969d", 
                         outside:"rgb(34, 54, 66)",
                         windowOutline:"10px solid rgb(156, 68, 0)", 
                         moon:"rgb(255, 255, 192)", 
                         alarm:"rgb(0, 160, 133)",
                         table:"rgb(160, 0, 45)", 
                         floor:"rgb(61, 33, 1)"}
+                };
+            }
+            changeColor(){
+            this.setState({
+                light: {room :"#f7ccd5", 
+                        outside:"#87ceeb",
+                        windowOutline:"10px solid #EB6500", 
+                        moon:"yellow", 
+                        alarm:"rgb(0, 202, 169)",
+                        table:"#EB0042", 
+                        floor:"rgb(88, 47, 0)"}
              });
             }
             
