@@ -15,6 +15,10 @@ Header
 * * * * * * * * * * * * * * * * * * * * */
 header {
     background:#432b07;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
 }
 
 .logo {
@@ -98,6 +102,8 @@ header .mobile-menu ul {
 .fade-in {
     opacity: 0;
 }
+
+
 
 /* * * * * * * * * * * * * * * * * * * * *
 Media Query
