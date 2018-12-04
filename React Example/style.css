@@ -18,8 +18,10 @@
 }
 #alarm {
     height: 50px;
-    width: 50px;
+    width: 70px;
     margin-left: 50px;
+    border-radius: 20%;
+    padding: 12px 7px;
 }
 #right-side {
     padding-top: 200px;
@@ -27,6 +29,7 @@
 #table{
     height: 150px;
     width: 200px;
+    border-radius: 20%;
 }
 #floor {
     height: 100px;
@@ -38,4 +41,10 @@ body {
 }
 button {
     margin-top: 50px;
+}
+#time {
+    font-weight: bold;
+    background: white;
+    border-radius: 25%;
+    padding: 2px 0;
 }
