@@ -16,12 +16,21 @@
     margin-top: 20px;
     border-radius: 50%;
 }
+#dayCloud {
+    height:25px;
+    height:25px;
+}
+#dayBalloon {
+    height:50px;
+    width:50px;
+}
 #alarm {
     height: 50px;
     width: 70px;
     margin-left: 50px;
     border-radius: 20%;
-    padding: 12px 7px;
+    padding: 10px 7px;
+    border: 1px solid rgb(2, 104, 99);
 }
 #right-side {
     padding-top: 200px;

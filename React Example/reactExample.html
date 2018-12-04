@@ -19,7 +19,7 @@
 <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 <script src="https://unpkg.com/react-pose/dist/react-pose.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
-<script type="text/babel" > 
+<script type="text/babel" >
     class App extends React.Component{
         constructor(){
             super();
@@ -66,7 +66,9 @@
                                 class='d-flex justify-content-center'
                                 style={windowColor}
                             >
-                                <div id='moon' style={moonColor}></div>                
+                                <div id='moon' style={moonColor}></div>
+                                <div id='dayCloud'></div>
+                                <div id='dayBalloon'></div>
                             </div>
                         </div>
                         <div id="right-side" class="col">
@@ -79,7 +81,7 @@
                 </div>
                 <div id="floor" style={floorColor}></div>
                 <button type='button' onClick={this.changeColor.bind(this)}>
-                Change
+                Wake up!
                 </button>
             </div>
             );
