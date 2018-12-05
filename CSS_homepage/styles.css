@@ -592,7 +592,9 @@ hr {
 .privacy {
     background-color: #76428f;
 }
-
+#privacy-policy {
+    line-height: 1.3em;
+}
 /* ************************  CONTACT  PAGE ONLY ***************************** */
 
 
