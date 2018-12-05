@@ -587,6 +587,10 @@ hr {
 .case-study {
     padding-top: 0;
     padding-bottom: 0;
+    margin-bottom: 5px;
+}
+.privacy {
+    background-color: #76428f;
 }
 
 /* ************************  CONTACT  PAGE ONLY ***************************** */
