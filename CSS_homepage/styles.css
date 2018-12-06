@@ -603,7 +603,21 @@ hr {
     background-color: #1a1003;
     color: peru;
 }
-
+.privacy-button {
+    background: #fc5e24;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.privacy-button:hover {
+    background: #ff9d00;
+    color: #1a1003;
+    text-decoration: none;
+}
+.privacy-buttons {
+    margin: 150px 0;
+}
 
 /* ************************  CONTACT  PAGE ONLY ***************************** */
 .heroC {
