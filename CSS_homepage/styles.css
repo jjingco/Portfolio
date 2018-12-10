@@ -544,7 +544,7 @@ hr {
     text-align: center;
 }
 .language, .non-school{
-    height: 300px;
+    height: 350px;
     text-align: center;
     color: white;
     background-color: #64ac9e;
@@ -556,7 +556,6 @@ hr {
     margin-bottom: 50px;
 }
 .non-school{
-    height: 300px;
     text-align: center;
     color: white;
     background-color:#bb5a6d;
@@ -641,7 +640,7 @@ hr {
     margin-bottom: 50px;
     opacity: 0.9;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     font-weight: bold;
 
 }
@@ -653,17 +652,18 @@ hr {
     font-weight: 700;
 }
 
-.email {
+.email, .contact-form {
     font-size: 100px;
+    margin-right: 25px;
 }
 
-#email-icon:hover {
+#email-icon:hover, #contact-icon:hover {
     cursor: pointer;
     color: #ff9e50;
     z-index: 1;
 }
 
-#email-contact {
+#email-contact, #contact-link {
     display: none;
     font-size: 20px;
     font-weight: bold;
@@ -673,6 +673,21 @@ hr {
 .contact-info{
     margin-top: 70px;
     font-weight: bold;
+}
+
+.contact-form-link, .contact-form-via-email {
+    background-color: #EB6500;
+    color: white;
+    padding: 10px 5px;
+}
+.contact-form-link:hover, .contact-form-via-email:hover {
+    background-color: yellow;
+    color: aqua;
+    text-decoration: none;
+    cursor: pointer;
+}
+.contact-form-via-email {
+    font-size: 0.55em;
 }
 
 .profile-pic {
@@ -698,7 +713,7 @@ hr {
 /* ************************  CONTACT FORM  PAGE ONLY ***************************** */
 
 .heroC-form {
-    height: 950px;
+    height: 1000px;
     background-image: 
     linear-gradient(90deg,
         rgba(0,0,0,0.8),
