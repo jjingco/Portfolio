@@ -698,7 +698,7 @@ hr {
 /* ************************  CONTACT FORM  PAGE ONLY ***************************** */
 
 .heroC-form {
-    height: 900px;
+    height: 950px;
     background-image: 
     linear-gradient(90deg,
         rgba(0,0,0,0.8),
@@ -718,7 +718,7 @@ hr {
     padding: 20px;
     margin-bottom: 50px;
     opacity: 0.9;
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 .heroC-form-content h1 {
@@ -760,6 +760,10 @@ input {
     font-size: 12px;
     padding-right: 40px;
     opacity: 0.70;
+}
+.alternative-contact{
+    color: white;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 991px) {
