@@ -409,7 +409,8 @@ margin-top: -350px;
     padding: 50px 25px 200px 25px;
 }
 .tech-animation {
-    background-image:linear-gradient(90deg, rgba(0,0,0,0.7), rgba(0,0,0,0.4)),
+    background-image:
+        linear-gradient(90deg, rgba(0,0,0,0.7), rgba(0,0,0,0.4)),
         url(../Pictures/christopher-czermak-705859-unsplash.jpg);
     background-size: cover;
     background-position: 50% 0%;
@@ -417,7 +418,8 @@ margin-top: -350px;
     background-attachment: fixed;
 }
 .freelance-animation {
-    background-image:linear-gradient(90deg, rgba(0,0,0,0.4), rgba(0,0,0,0)),
+    background-image:
+        linear-gradient(90deg, rgba(0,0,0,0.4), rgba(0,0,0,0)),
         url(../Pictures/luca-bravo-453157-unsplash.jpg);
     background-size: cover;
     background-position: 50% 50%;
@@ -689,6 +691,83 @@ hr {
         width: 100%;
     }
     .heroC-content h1{
+        font-size: 4em;
+    }
+}
+
+/* ************************  CONTACT FORM  PAGE ONLY ***************************** */
+
+.heroC-form {
+    height: 900px;
+    background-image: 
+    linear-gradient(90deg,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0)),
+    url('../Pictures/About-Page/JoyJingcoVacationPic.jpg');
+    background-size: cover;
+    color: rgb(107, 71, 34);
+    padding-top: 100px;
+    background-position: 50% 50%;
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+}
+.heroC-form-content {
+    width: 60%;
+    height: 370px;
+    color: rgb(243, 186, 0);
+    padding: 20px;
+    margin-bottom: 50px;
+    opacity: 0.9;
+    margin-top: 75px;
+}
+
+.heroC-form-content h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 5em;
+    margin: 0;
+    font-weight: 700;
+}
+
+.heroC-form hr {
+    background:#ff9900;
+    margin-top: 0;
+    opacity: 0;
+}
+
+.heroC-form button {
+    color: white;
+    border: none;
+    background: #ef7547;
+    padding: 0 10px;
+}
+
+.heroC-form button:hover {
+    cursor: pointer;
+    background: #f18a64;
+}
+
+
+.email-contact {
+    padding-left: 5px;
+}
+
+.textbox {
+    padding-top: 10px;
+    opacity: 0.70;
+}
+
+input {
+    font-size: 12px;
+    padding-right: 40px;
+    opacity: 0.70;
+}
+
+@media screen and (max-width: 991px) {
+
+    .heroC-form-content {
+        width: 100%;
+    }
+    .heroC-form-content h1{
         font-size: 4em;
     }
 }
