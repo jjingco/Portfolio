@@ -244,6 +244,11 @@ footer p {
     }
 
 }
+@media screen and (max-width:425px) {
+    .heroI h1 {
+        margin: 25px 0 50px 0;
+    }
+}
 
 
 
