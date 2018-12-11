@@ -32,3 +32,24 @@ h1, h2 {
 p {
     font-weight: bold;
 }
+.lights {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+}
+.light1 {
+    background-color: rgb(1, 255, 1);
+}
+.light2 {
+    background-color: rgb(255, 238, 0);
+}
+.light3 {
+    background-color: rgb(255, 187, 0);
+}
+.light4 {
+    background-color: rgb(255, 123, 0);
+}
+.light5 {
+    background-color: rgb(255, 30, 0);
+}

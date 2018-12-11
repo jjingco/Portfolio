@@ -395,17 +395,6 @@
                                     </a>
                                 </p>
                             </div>
-                            <div class="contact-form">
-                                <i class="far fa-sticky-note" id='contact-icon'></i>
-                                <p id="contact-link">
-                                    <a href="https://lucid-khorana-dd1a05.netlify.com/contact.html" 
-                                        target="_blank"
-                                        class="contact-form-link"
-                                    >
-                                    Go to Contact Form!
-                                    </a>
-                                </p>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -452,11 +441,6 @@
                     opacity: 0,
                     height:"toggle"
                 },1000)
-                $('#contact-icon').animate({
-                    left:"100",
-                    opacity: 0,
-                    height:"toggle"
-                },1000)
 
                 $('#email-contact').animate({
                     left:"100",
@@ -467,31 +451,6 @@
                 clearInterval(emailBounce);
             });
 
-            var contactFormBounce =setInterval(function() {
-                $( "#contact-icon" ).effect('bounce',1000)
-            },1000);
-
-            $( ".contact-form" ).click(function() {
-
-                $('#contact-icon').animate({
-                    left:"100",
-                    opacity: 0,
-                    height:"toggle"
-                },1000)
-                $('#email-icon').animate({
-                    left:"100",
-                    opacity: 0,
-                    height:"toggle"
-                },1000)
-
-                $('#contact-link').animate({
-                    left:"100",
-                    opacity: 1,
-                    height:"toggle"
-                },2000)
-
-                clearInterval(contactFormBounce);
-                });
 
 
             $(document).ready(function() {
