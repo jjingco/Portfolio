@@ -21,7 +21,13 @@ img:hover {
     transform: scale(5);
 }
 body {
-    background-color: #1024a7;
+    background-image: 
+        linear-gradient(90deg,rgba(0,0,0,0.3),rgba(0,0,0,0)),
+        url('./blueprint-background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
     font-family: 'Open Sans', sans-serif;
 }
@@ -38,11 +44,17 @@ p {
     width: 50px;
     border: 2px solid white;
 }
+.current {
+    background-color: rgb(6, 87, 141);
+    padding-top: 10px;
+}
+
 .light1 {
     background-color: rgb(1, 255, 1);
 }
 .light2 {
     background-color: rgb(255, 238, 0);
+    animation: flashingLights 2s linear infinite;
 }
 .light3 {
     background-color: rgb(255, 187, 0);
@@ -53,3 +65,8 @@ p {
 .light5 {
     background-color: rgb(255, 30, 0);
 }
+@keyframes flashingLights {
+    50% {
+      opacity: 0;
+    }
+  }

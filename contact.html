@@ -59,7 +59,9 @@
             <div class="heroC-form-content">
                 <h1>Send a Message...</h1>
                 <hr>
-                <form name="contact" method="POST" netlify>
+                <form name="contact" method="POST" netlify> 
+                <!-- this form currently goes to netlify since I'm being hosted static
+                but if i wanted to activate it I should add action="contact.php" -->
                     <label for="name"> Name: </label>
                     <input type="text" id="name-contact" name="name">
                     <br>

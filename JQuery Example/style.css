@@ -1,3 +1,11 @@
+#jquery-example {
+    background-color: black;
+    padding-bottom: 500px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
 .box {
     height: 100px;
 }
@@ -14,44 +22,14 @@
     background-color: #84C3DF;
 }
 
-#jquery-example {
-    background-color: black;
-    padding-bottom: 500px;
-    text-align: center;
-    padding-top: 50px;
-}
 #jquery-example h2 {
     font-style: italic;
     font-size: 1.5em;
-    color: white;
+    margin-bottom: 50px;
 }
-h1 {
-    color: white;
-}
-.first-row {
-    margin-top: 50px;
-    z-index: 1;
-}
-.example2 {
-    margin-top: 300px;
-    z-index: 1;
-}
-.purple1,.purple2 {
-    background-color: #844D9E;
-}
-.orange {
-    background-color: #F0A32F;
-}
-.green {
-    background-color: #88C542;
-}
-.secret-message {
-    font-size: 2em;
-    margin-top: -120px;
-    color: white;
-}
+
 .sampleBtn {
-    margin-top: 70px;
+    margin:100px 0px;
 }
 .sampleBtn a {
     background-color: rgb(167, 243, 243);
@@ -62,3 +40,9 @@ h1 {
 .sampleBtn a:hover {
     background-color: aqua;
 }
+p {
+    line-height: 1.2em;
+}
+h4 {
+    margin-bottom: 25px;
+} 

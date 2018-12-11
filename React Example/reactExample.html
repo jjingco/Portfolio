@@ -10,9 +10,29 @@
     <title>React Example</title>
 </head>
 <body>
-    <div class="container">
-        <div id="root"></div>
-    </div>
+    <main>
+        <div class="container">
+            <div id="root"></div>
+        </div>
+        <div class="case-study mt-5 container">
+            <h4>Mini Case Study: Learning React for the First Time</h4>
+            <p>This is my first project in React. Because of my background
+                in Vanilla JavaScript, I found learning React to be easier.
+                Having that solid foundation really helped me pick it up 
+                easier compared to my first couple of months in 
+                web development when everything was new.
+            </p>
+            <p>
+                I knew that with my first React project rather than 
+                show-casing the typical stop timers and to-do lists
+                I wanted to focus more on animation and see
+                how far I can take React on that aspect. Though
+                the above animation is very simple I hope you enjoy
+                my first project! 
+            </p>
+
+        </div>
+    </main>
 
 
 <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
@@ -31,7 +51,8 @@
                         alarm:"rgb(0, 160, 133)",
                         time: "12:00",
                         table:"rgb(160, 0, 45)", 
-                        floor:"rgb(61, 33, 1)"}
+                        floor:"rgb(61, 33, 1)",
+                        balloon:"none"}
                 };
             }
             changeColor(){
@@ -44,7 +65,8 @@
                         alarmShake:'shake-slow shake-constant',
                         time: "07:00",
                         table:"#EB0042", 
-                        floor:"rgb(88, 47, 0)"}
+                        floor:"rgb(88, 47, 0)",
+                        balloon:"block"}
              });
             }
             
@@ -56,6 +78,8 @@
             const alarmColor = {background:this.state.light.alarm};
             const tableColor = {background:this.state.light.table};
             const floorColor = {background:this.state.light.floor};
+            const balloonDisplay = {display:this.state.light.balloon};
+
 
             return (
             <div>
@@ -67,12 +91,21 @@
                                 style={windowColor}
                             >
                                 <div id='moon' style={moonColor}></div>
-                                <div id='dayCloud'></div>
-                                <div id='dayBalloon'></div>
+                                <div id='dayBalloon' 
+                                    class='mt-5 ml-5'
+                                    style={balloonDisplay}
+                                >
+                                    <img src='./pictures/air-balloon.png'
+                                        height='75px'
+                                        width='53px'
+                                    />
+                                </div>
                             </div>
                         </div>
                         <div id="right-side" class="col">
-                            <div id='alarm' style={alarmColor} class={this.state.light.alarmShake}>
+                            <div id='alarm' 
+                                style={alarmColor} 
+                                class={this.state.light.alarmShake}>
                                 <div id="time">{this.state.light.time} </div>
                             </div>                
                             <div id='table' style={tableColor}></div>

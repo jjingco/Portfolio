@@ -49,11 +49,35 @@ body {
     text-align: center;
 }
 button {
-    margin-top: 50px;
+    margin: 50px 0px;
+    cursor: pointer;
 }
 #time {
     font-weight: bold;
     background: white;
     border-radius: 25%;
     padding: 2px 0;
+}
+.case-study {
+    color: rgb(202, 202, 202);
+}
+p {
+    line-height: 1.2em;
+}
+h4 {
+    margin-bottom: 25px;
+} 
+#dayBalloon{
+    z-index: 2;
+    animation-name: floatingBalloon;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floatingBalloon {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(20px, -5px); }
+    to   { transform: translate(0, -0px); }    
+
 }
