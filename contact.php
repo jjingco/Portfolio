@@ -24,11 +24,9 @@
     
         
     
-        $name = $_POST['first_name']; // required
-        $last_name = $_POST['last_name']; // required
+        $name = $_POST['name']; // required
         $email_from = $_POST['email']; // required
-        $telephone = $_POST['telephone']; // not required
-        $message = $_POST['comments']; // required
+        $message = $_POST['message']; // required
     
         $error_message = "";
         $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
