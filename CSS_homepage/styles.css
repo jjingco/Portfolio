@@ -650,26 +650,22 @@ hr {
 
 /* ************************  CONTACT  PAGE ONLY ***************************** */
 .heroC {
-    height: 1125px;
     background-image:url('../Pictures/background.jpg');
     background-size: cover;
     background-position: 50% 0%;
     background-repeat:no-repeat;
     align-content: center;
-    padding-top: 100px;
+    padding: 100px 0px 50px 0px;
     font-family: 'Open Sans', sans-serif;
 }
 
 
 .heroC-content {
     width: 60%;
-    height: 370px;
     color:#432b07;
     padding: 20px;
-    margin-bottom: 50px;
     opacity: 0.9;
     text-align: center;
-    margin-top: 100px;
     font-weight: bold;
 
 }
